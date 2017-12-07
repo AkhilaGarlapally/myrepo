@@ -1,3 +1,8 @@
+properties([
+    [$class: 'GithubProjectProperty',
+    displayName: '',
+    projectUrlStr: 'https://github.com/AkhilaGarlapally/myrepo.git/'],
+    pipelineTriggers([upstream('master')])])
 pipeline {
      agent any
      stages {
