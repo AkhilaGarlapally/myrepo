@@ -1,6 +1,6 @@
 properties([
     [$class: 'GithubProjectProperty',
-    displayName: '',
+    displayName: 'akhila',
     projectUrlStr: 'https://github.com/AkhilaGarlapally/myrepo.git/'],
     pipelineTriggers([upstream('master')])])
 pipeline {
