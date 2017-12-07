@@ -10,7 +10,7 @@ pipeline{
 	     steps {
 	         echo 'Building e '
 		 echo 'heljkcvsdgdjhkhlo'
-		 echo 'hello'
+		 echo 'hiiii'
 	     }
 }
          stage('Test') {
